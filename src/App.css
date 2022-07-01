@@ -1,0 +1,64 @@
+
+.todoinput{
+    border:8px solid black ;
+    padding: 0pxpx 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.outerbox{
+    width: 500px;
+    margin: 2% auto;
+}
+.btn-addtodo{
+    color:black;
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.text-addtodo{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+}
+.eachitem{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    color: black;
+    /* background-color:rgb(150, 138, 138); */
+    
+} 
+.btn-outline-secondary{
+    background-color: blue;
+    color: white;
+}
+.btn-primary{
+    margin-left: 182px;
+   
+}
+ 
+.buttonnormal{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 120px;
+} 
+.dustben{
+    background-color: blue;
+}
+ .check{
+       color: green;
+} 
+.delete{
+    color: red;
+}
+.update{
+    color:darkmagenta;
+}
+.line-through{
+    text-decoration: line-through;
+    font-weight: 400;
+}
